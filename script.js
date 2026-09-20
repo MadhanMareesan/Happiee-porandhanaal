@@ -17,8 +17,8 @@ const dailyMessages = {
     },
 
     "2026-09-21": {
-        card1: "Every time I think about you, I end up smiling. ❤️",
-        card2: "You're dangerously cute... and that's becoming a serious problem. 🫦🌶️"
+        card1: “உன்னை நினைக்கும் ஒவ்வொரு முறையும், என் உதடுகளில் தானாகவே புன்னகை மலர்கிறது. ❤️✨”,
+        card2: "Can’t wait to see you in your bday dress… the one you were born wearing. 🥵"
     },
 
     "2026-09-22": {
