@@ -16,10 +16,10 @@ const dailyMessages = {
         card2: "You’re my favorite reason to have absolutely no innocent thoughts.🌶️"
     },
 
-    "2026-09-21": {
-        card1: “உன்னை நினைக்கும் ஒவ்வொரு முறையும், என் உதடுகளில் தானாகவே புன்னகை மலர்கிறது. ❤️✨”,
-        card2: "Can’t wait to see you in your bday dress… the one you were born wearing. 🥵"
-    },
+   "2026-09-21": {
+    card1: "உன்னை நினைக்கும் ஒவ்வொரு முறையும் என் உதடுகளில் தானாகவே புன்னகை மலர்கிறது ❤️✨",
+    card2: "Can’t wait to see you in your bday dress… the one you were born wearing. 🥵"
+},
 
     "2026-09-22": {
         card1: "Some memories become special simply because you were there. ❤️",
