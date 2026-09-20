@@ -1,0 +1,541 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    font-family: "Segoe UI", sans-serif;
+
+    background:
+        radial-gradient(circle at top, #fff5fa, #ffdce9 45%, #ffc6dc);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    color: #333;
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.container {
+    width: 100%;
+    max-width: 650px;
+
+    text-align: center;
+
+    padding: 45px 20px 70px;
+
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+h1 {
+    font-size: 38px;
+    line-height: 1.15;
+
+    color: #e83e78;
+
+    margin-bottom: 25px;
+
+    animation: fadeIn 1.2s ease;
+}
+
+h1 span {
+    display: inline-block;
+
+    animation: heartbeat 1.5s infinite;
+}
+
+
+/* =========================================
+   COUNTDOWN
+========================================= */
+
+.countdown {
+    margin-bottom: 35px;
+}
+
+#days {
+    font-size: 82px;
+    font-weight: 700;
+
+    line-height: 0.95;
+
+    color: #e83e78;
+
+    text-shadow:
+        0 4px 15px rgba(232, 62, 120, 0.2);
+}
+
+.countdown p {
+    margin-top: 10px;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 4px;
+
+    color: #a94b70;
+}
+
+
+/* =========================================
+   MAIN CARD AREA
+========================================= */
+
+.main-card {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================================
+   MAIN CARD
+========================================= */
+
+.card {
+    width: 100%;
+    max-width: 600px;
+
+    height: 190px;
+
+    perspective: 1000px;
+
+    cursor: pointer;
+}
+
+
+/* Inner */
+
+.card-inner {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.7s;
+
+    transform-style: preserve-3d;
+}
+
+
+/* Flip */
+
+.card.open .card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Front + Back */
+
+.card-front,
+.card-back {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    backface-visibility: hidden;
+
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+
+    box-shadow:
+        0 12px 30px rgba(180, 70, 110, 0.18);
+}
+
+
+/* Main front */
+
+.card-front {
+    background: rgba(255, 255, 255, 0.82);
+
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+
+/* Main back */
+
+.card-back {
+    background:
+        linear-gradient(
+            135deg,
+            #ff8fb8,
+            #ffb6d0
+        );
+
+    color: white;
+
+    transform: rotateY(180deg);
+}
+
+
+/* Main icon */
+
+.card-icon {
+    font-size: 35px;
+
+    margin-bottom: 5px;
+}
+
+
+/* Main title */
+
+.card-front h2 {
+    font-size: 20px;
+
+    color: #e83e78;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 6px;
+}
+
+
+/* Main front text */
+
+.card-front p {
+    font-size: 14px;
+
+    color: #9b5571;
+
+    line-height: 1.4;
+}
+
+
+/* Main message */
+
+.card-back p {
+    max-width: 520px;
+
+    font-size: 18px;
+    line-height: 1.5;
+
+    font-weight: 500;
+}
+
+
+/* =========================================
+   DIRTY CORNER AREA
+========================================= */
+.dirty-card-area {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    padding-right: 0;
+
+    transform: translateX(40px);
+}
+
+
+/* =========================================
+   DIRTY CARD
+========================================= */
+
+.dirty-card {
+    width: 210px;
+    height: 145px;
+
+    perspective: 1000px;
+
+    cursor: pointer;
+
+    transform: rotate(3deg);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.dirty-card:hover {
+    transform:
+        rotate(0deg)
+        scale(1.04);
+}
+
+
+/* Inner */
+
+.dirty-card-inner {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.7s;
+
+    transform-style: preserve-3d;
+}
+
+
+/* Flip */
+
+.dirty-card.open .dirty-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Front + Back */
+
+.dirty-card-front,
+.dirty-card-back {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    backface-visibility: hidden;
+
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+
+    box-shadow:
+        0 12px 25px rgba(0, 0, 0, 0.22);
+}
+
+
+/* Dirty front */
+
+.dirty-card-front {
+    background:
+        linear-gradient(
+            145deg,
+            #181818,
+            #050505
+        );
+
+    border: 2px solid #333;
+
+    color: white;
+}
+
+
+/* Dirty icon */
+
+.dirty-icon {
+    font-size: 28px;
+
+    margin-bottom: 3px;
+}
+
+
+/* Dirty title */
+
+.dirty-card-front h2 {
+    font-size: 15px;
+
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+    margin-bottom: 5px;
+}
+
+
+/* Dirty subtitle */
+
+.dirty-card-front p {
+    font-size: 11px;
+
+    color: #bbbbbb;
+
+    font-style: italic;
+}
+
+
+/* Dirty back */
+
+.dirty-card-back {
+    background:
+        linear-gradient(
+            135deg,
+            #171717,
+            #292929
+        );
+
+    color: white;
+
+    transform: rotateY(180deg);
+
+    border: 2px solid #444;
+}
+
+
+/* Dirty joke */
+
+.dirty-card-back p {
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    color: #ffffff;
+}
+
+
+/* =========================================
+   FLOATING ELEMENTS
+========================================= */
+
+#floating-elements {
+    position: fixed;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    overflow: hidden;
+
+    z-index: 1;
+}
+
+
+.floating {
+    position: absolute;
+
+    top: -50px;
+
+    animation:
+        floatingFall linear forwards;
+
+    opacity: 0.8;
+
+    user-select: none;
+}
+
+
+@keyframes floatingFall {
+
+    0% {
+        transform:
+            translateY(-50px)
+            rotate(0deg);
+
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.85;
+    }
+
+    90% {
+        opacity: 0.7;
+    }
+
+    100% {
+        transform:
+            translateY(110vh)
+            rotate(360deg);
+
+        opacity: 0;
+    }
+}
+
+
+/* =========================================
+   ANIMATIONS
+========================================= */
+
+@keyframes heartbeat {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .container {
+        padding:
+            35px 15px 60px;
+    }
+
+
+    h1 {
+        font-size: 30px;
+    }
+
+
+    #days {
+        font-size: 68px;
+    }
+
+
+    .card {
+        height: 175px;
+    }
+
+
+    .card-back p {
+        font-size: 16px;
+    }
+
+
+    .dirty-card-area {
+        padding-right: 5px;
+    }
+
+
+    .dirty-card {
+        width: 185px;
+        height: 130px;
+    }
+
+}
