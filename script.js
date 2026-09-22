@@ -22,10 +22,12 @@ const dailyMessages = {
 },
 
     "2026-09-22": {
-        card1: "Some memories become special simply because you were there. ❤️",
-        card2: "If looking this good was illegal, you'd need a lawyer by now. 😏🖤"
-    },
 
+    card1: "ஒவ்வொரு சூரிய அஸ்தமனத்திலும், சூரிய உதயத்திலும், குளிர்ந்த காற்றிலும், வெப்பமான நாளிலும், தூறலிலும், காற்றின் வருடலிலும் — உன் கைகளைப் பிடித்தபடி, வாழ்வின் ஒவ்வொரு தருணத்தையும் உன்னுடன் ரசிக்கக் காத்திருக்கிறேன். ❤️✨",
+
+    card2: "If you’re a saxophone 🎷, I’m ready to play you all day. 🫦❤️"
+
+},
     "2026-09-23": {
         card1: "You make my ordinary days feel extraordinary. ✨❤️",
         card2: "I was going to behave today... then I remembered you exist. 🫦🌶️"
