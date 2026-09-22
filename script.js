@@ -29,8 +29,8 @@ const dailyMessages = {
 
 },
     "2026-09-23": {
-        card1: "You make my ordinary days feel extraordinary. ✨❤️",
-        card2: "I was going to behave today... then I remembered you exist. 🫦🌶️"
+        card1: "You’re my first thought in the morning, my last thought at night, and the thought that stays with me all day. ❤️✨",
+        card2: "my thoughts are dirty sometimes. 🫦🌶️"
     },
 
     "2026-09-24": {
@@ -199,7 +199,7 @@ const floatingSymbols = [
     "💗",
     "💖",
     "💓",
-    "🌸",
+    "Madhan loves you ❤️",
     "🌷",
     "🌺",
     "🌹",
