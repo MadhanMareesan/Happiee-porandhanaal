@@ -34,13 +34,13 @@ const dailyMessages = {
     },
 
     "2026-09-24": {
-        card1: "I don't need a special day to celebrate you. ❤️",
-        card2: "You're the reason my thoughts occasionally take a very naughty detour. 😏🖤"
+        card1: "நீ என் வாழ்க்கைக்கு கிடைத்த மிகப்பெரிய பரிசு.❤️உனக்கு என்னையே தருவதைவிட சிறந்த பரிசு வேறென்ன இருக்க முடியும்? நேற்றும், இன்றும், என்றும் — நான் முழுவதுமாக உன்னுடையவன்.இது சத்தியம்.❤️",
+        card2: "My fingers and tongue speak two different languages… which one does your body want to hear first — sign language or French?🖤"
     },
 
     "2026-09-25": {
-        card1: "Five days... and I still have so many things left to say. ❤️",
-        card2: "At this point, calling you distracting is an understatement. 🫦🌶️"
+        card1: "If life were a dictionary, and love were the word I searched for, it would simply say — Sweatha. ❤️",
+        card2: "Whenever I see 12:30 on my clock, I’m instantly teleported back to that bedroom—visualizing you undressed on the bed, whispering, moaning, holding my head… 🫦🌶️"
     },
 
     "2026-09-26": {
@@ -196,7 +196,7 @@ const floatingSymbols = [
 
     "❤️",
     "💕",
-    "💗",
+    "My angel💗",
     "💖",
     "💓",
     "Madhan loves you ❤️",
