@@ -44,8 +44,8 @@ const dailyMessages = {
     },
 
     "2026-09-26": {
-        card1: "I'm really grateful that our paths crossed. ❤️",
-        card2: "Warning: thinking about you may cause uncontrollable smiling... and other thoughts. 😏🌶️"
+        card1: "உன்னை காதலிக்கும் வரை, ஒருவரை இவ்வளவு அதிகமாக என்னால் நேசிக்க முடியும் என்று நான் ஒருபோதும் அறிந்ததில்லை. ❤️",
+        card2: "I love playing with vegetables and pets… especially onions 🧅, muskmelons 🍈, carrots 🥕, cherries 🍒, mangoes 🥭, and pussy cats 🐱. 😏🌶️"
     },
 
     "2026-09-27": {
