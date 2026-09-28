@@ -54,8 +54,8 @@ const dailyMessages = {
     },
 
     "2026-09-28": {
-        card1: "I hope you know just how deeply you are loved. ❤️",
-        card2: "Two days left... maybe I should start behaving. Nah. 😏🌶️"
+        card1: "Relative → Buddy → Friend → Best Friend → Lover → Fiancée ❤️உனக்குத் தெரிந்த ஒரு உறவாகத் தொடங்கி, இன்று உன்னை வாழ்நாள் முழுவதும் நேசிக்கும் உன் துணையாக மாறியிருக்கிறேன். Thanks for the hike every year, my Boss Lady. 😌❤️👑",
+        card2: "Give me a special hug put your legs on my shoulder and grab me closer, i will give a french kiss on your lips btw your legs 😏🌶️"
     },
 
     "2026-09-29": {
