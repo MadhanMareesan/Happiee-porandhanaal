@@ -59,8 +59,8 @@ const dailyMessages = {
     },
 
     "2026-09-29": {
-        card1: "Tomorrow is your day. But honestly, I feel lucky every day because of you. ❤️",
-        card2: "One more sleep, Kadhali... and then things get interesting. 🫦🌶️"
+        card1: "Tomorrow may be your special day. But you are special to me everyday.Thank you for being you.Saying en aalu,my swea is the biggest flex of my life. ❤️",
+        card2: "One more sleep, Kadhali... and then cake is not the only thing we will be eating for your birthday. 🫦🌶️"
     }
 
 };
